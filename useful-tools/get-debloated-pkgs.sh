@@ -13,7 +13,7 @@ set -e
 ARCH="$(uname -m)"
 TMPFILE="$(mktemp)"
 TMPDIR="$(mktemp -d)"
-SOURCE=${SOURCE:-https://api.github.com/repos/pkgforge-dev/archlinux-pkgs-debloated/releases/latest}
+SOURCE=${SOURCE:-https://api.github.com/repos/sarrchri/archlinux-pkgs-debloated/releases/latest}
 ERRLOG="$TMPDIR"/.errlog
 
 COMMON_PACKAGES=${COMMON_PACKAGES:-0}
